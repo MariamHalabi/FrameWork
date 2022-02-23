@@ -1,0 +1,16 @@
+{
+  "name": "mariametmane/microframework",
+  "description": "pour diemer",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "": "core/"
+    },
+    "files": [
+      "routes/routes.php"
+    ]
+  },
+  "require": {
+    "twig/twig": "3.0"
+  }
+}
